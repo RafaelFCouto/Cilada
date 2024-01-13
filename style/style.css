@@ -1,0 +1,162 @@
+*   {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.border {
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha na parte inferior da div */
+    
+}
+/* Menu de navegação*/
+header  {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+nav {
+    align-items: center;
+    
+}
+
+header img{
+    margin-left: 100px;
+}
+nav ul  {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 100px;
+    
+  
+  
+}
+  
+
+nav ul li {
+    list-style-type: none;
+    font-style: none;
+    margin-left:16px ;
+    
+    
+}
+  nav ul li a {
+    text-decoration: none;
+    color: #800080;
+    
+    
+}
+
+/* Páginas */
+
+#quem-somos{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+#quem-somos{
+    height: 300px;
+}
+
+
+#quem-somos img{
+
+    margin-left: 103px;
+    margin-right: 10px;
+ 
+}
+
+#text-quem-somos{
+    color: white;
+    padding-top: 100px ;
+    padding-left: 10px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: #800080;
+}
+
+#text-quem-somos h2{
+    margin-bottom: 10px;
+}
+
+#text-quem-somos p::first-letter{
+    font-size: 150%;
+}
+
+
+
+/*PRINCIPAIS GOLPES*/
+
+
+
+#principais-golpes{
+    background-color: #800080;
+    padding-top: 10px;
+}
+
+#principais-golpes .cards{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+
+#principais-golpes .card {
+    background-image: url(/img/bgs/bg-golpes.png);
+    margin: 15px;
+    padding: 20px;
+    text-align: justify;
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #800080;
+}
+
+
+#principais-golpes a {
+    text-decoration: none;
+    color: #800080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
