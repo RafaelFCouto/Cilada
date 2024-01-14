@@ -5,13 +5,35 @@
   }
 
 
-.border {
-    border-bottom: 1px solid #ccc; /* Adiciona uma linha na parte inferior da div */
+.border-1{
+     height: 1.5px;
+     background: linear-gradient(
+        270deg,
+        #222222,
+        #ccc
+        )
+     
     
+}
+
+.border-2{
+    height: 1.5px;
+    background: linear-gradient(
+       270deg,
+       #ccc,
+       #222222
+      
+    )
+    
+   
+}
+
+section {
+    min-height: 500px;
 }
 /* Menu de navegação*/
 header  {
-    background-color: white;
+    background-color: #800080;
     display: flex;
     justify-content: space-between;
     height: 100px;
@@ -40,12 +62,13 @@ nav ul li {
     list-style-type: none;
     font-style: none;
     margin-left:16px ;
+    padding-left: 20px;
     
     
 }
   nav ul li a {
     text-decoration: none;
-    color: #800080;
+    color: white;
     
     
 }
@@ -66,24 +89,24 @@ nav ul li {
 
 #quem-somos img{
 
-    margin-left: 103px;
+    margin-left: 200px;
     margin-right: 10px;
  
 }
 
 #text-quem-somos{
-    color: white;
-    padding-top: 100px ;
-    padding-left: 10px;
-    padding-right: 15px;
+    color: #800080;
+    padding: 100px;
     align-items: center;
     justify-content: center;
     text-align: justify;
-    background-color: #800080;
+    background-color: white;
 }
 
 #text-quem-somos h2{
-    margin-bottom: 10px;
+    font-size: xx-large;
+    margin-bottom: 15px;
+    
 }
 
 #text-quem-somos p::first-letter{
@@ -104,28 +127,38 @@ nav ul li {
 #principais-golpes .cards{
     display: flex;
     justify-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
 #principais-golpes .card {
     background-image: url(/img/bgs/bg-golpes.png);
     margin: 15px;
+    margin-bottom: 100px;
     padding: 20px;
-    text-align: justify;
-    height: 300px;
+    text-align: center;
+    height: 400px;
     width: 300px;
     border-radius: 16px;
 }
 
+#principais-golpes .card img{
+    height: 35%;
+}
+
+#principais-golpes strong{
+    color: #800080;
+}
+
 .titulo{
+    font-size: 40px;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 50px;
     color: white;
 }
 .card h2 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #800080;
 }
 
