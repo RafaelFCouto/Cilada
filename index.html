@@ -1,95 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
-    
-    
-    
-    <link rel="stylesheet" href="/style/style.css">
-    <script src="/scripts/script.js" defer></script>
-    <title>Cilada</title>
-</head>
-<body>
-    <header>
-        <img src="/img/logos/Logo-Branco-Roxo-Nome.svg" alt="Logo Cilada" >
-        <nav>
-            <ul>
-                <li><a href="#quem-somos">Quem somos</a></li>
-                <li><a href="#principais-golpes">Principais golpes</a></li>
-                <li><a href="#">Como se proteger</a></li>
-                <li><a href="#">o que fazer?</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="border-1"></div>
-    <main>
-        <section id="quem-somos">
-            <img src="/img/fig/Img-QuemSomos.png" alt="Logo Cilada com nome">
-            <div id="text-quem-somos">
-                <h2 class="quem-somos-text">Quem Somos?</h2>
-                <p class="quem-somos-text">
-                    Sua referência online para compreender e te ajudar a se proteger contra <strong>ameaças cibernéticas</strong>  . 
-                    Nós somos mais que uma comunidade, somos entusiastas apaixonados por <strong>compartilhar 
-                    conhecimento</strong> e <strong>conscientizar</strong> o público sobre os perigos digitais. 
-                    Nosso compromisso é fornecer as melhores práticas de segurança online, 
-                    capacitando você a navegar pelo mundo digital com confiança e segurança.  
-                </p>
-            </div>
-        </section>
-
-        <div class="border-1"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <section id="principais-golpes">
-            <h2 class="titulo">Principais Golpes</h2>
-            <div class="cards">
-                <div class="card" id="eng-social">
-                    <img src="/img/icons/icone-eng-soc-1.png">
-                    <h2>Engenharia Social</h2>
-                    <p>
-                        Este golpe, está associado com o <strong>fator emocional</strong>, onde os criminosos apelam utilizando de
-                        artificios para induzir as vítimas a agirem pelo senso emocional, como por exemplo,
-                        a liberação de uma quatia em dinheiro, ou até mesmo com a <strong>apelação ao senso de urgência</strong>
-                        pela necessidade de um parente ou pessoa próxima. 
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="/img/icons/icone-phishing-1.png">
-                    <h2>Phishing</h2>
-                    <p>
-                        Tem como nome, o termo pescar em inglês, pelo fato de soltar "iscas" como: <strong>Promoções tentadoras,
-                        polêmicas, anúncios em aplicativos e sites</strong>.
-                        Atualmente, acontece com bastante frequência este tipo de golpe, segundo o relatório
-                        da empresa de segurança cibernética <a href="https://www.kaspersky.com.br/about">Kaspersky.</a>, o
-                        Brasil é o país que mais recebe ataques via WhatsApp e o quarto, quando se trata de email.
-                        
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="/img/icons/icone-malware-1.png">
-                    <h2>Malware</h2>
-                    <p>
-                        No vasto universo da cibersegurança, os malwares destacam-se como uma das <strong>ameaças mais
-                        persistentes e prejudiciais</strong>. Esses programas maliciosos, que incluem <strong>vírus</strong>,<strong>trojans</strong>,
-                        <strong>ransomware</strong> e muito mais,
-                        têm o potencial de comprometer a segurança de sistemas, redes e dados pessoais.
-                      
-                       
-                    </p>
-                </div>
-            </div> 
-        </section>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    
 
+        
+        
+        
+        <link rel="stylesheet" href="/style/style.css">
+        <script src="/scripts/script.js"></script>
+        <title>Cilada</title>
+    </head>
+    <body>
+        <header>
+            <img src="/img/logos/Logo-Branco-Roxo-Nome.svg" alt="Logo Cilada" >
+            <nav>
+                <ul>
+                    <li><a href="#quem-somos">Quem somos</a></li>
+                    <li><a href="#principais-golpes">Principais golpes</a></li>
+                    <li><a href="#protecao">Como se proteger</a></li>
+                    <li><a href="#o-que-fazer">O que fazer?</a></li>
+
+                </ul>
+            </nav>
+        </header>
         <div class="border-1"></div>
+        <main>
+            <section id="quem-somos">
+                <img src="/img/fig/Img-QuemSomos.png" alt="Logo Cilada com nome">
+                <div id="text-quem-somos">
+                    <h2 class="quem-somos-text">Quem Somos?</h2>
+                    <p class="quem-somos-text">
+                        Sua referência online para compreender e te ajudar a se proteger contra <strong>ameaças cibernéticas</strong>  . 
+                        Nós somos mais que uma comunidade, somos entusiastas apaixonados por <strong>compartilhar 
+                        conhecimento</strong> e <strong>conscientizar</strong> o público sobre os perigos digitais. 
+                        Nosso compromisso é fornecer as melhores práticas de segurança online, 
+                        capacitando você a navegar pelo mundo digital com confiança e segurança.  
+                    </p>
+                </div>
+            </section>
+
+            <div class="border-1"></div>
+            
+            <section id="principais-golpes">
+                <h2 class="titulo">Principais Golpes</h2>
+                <div class="cards">
+                    <div class="card" id="eng-social">
+                        <img src="/img/icons/icone-eng-soc-1.png" alt="Icone de Engenharia Social">
+                        <h2>Engenharia Social</h2>
+                        <p>
+                            Este golpe, está associado com o <strong>fator emocional</strong>, onde os criminosos apelam utilizando de
+                            artificios para induzir as vítimas a agirem pelo senso emocional, como por exemplo,
+                            a liberação de uma quatia em dinheiro, ou até mesmo com a <strong>apelação ao senso de urgência</strong>
+                            pela necessidade de um parente ou pessoa próxima. 
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="/img/icons/icone-phishing-1.png" alt="Icone de Phishing">
+                        <h2>Phishing</h2>
+                        <p>
+                            Tem como nome, o termo pescar em inglês, pelo fato de soltar "iscas" como: <strong>Promoções tentadoras,
+                            polêmicas, anúncios em aplicativos e sites</strong>.
+                            Atualmente, acontece com bastante frequência este tipo de golpe, segundo o relatório
+                            da empresa de segurança cibernética <a href="https://www.kaspersky.com.br/about">Kaspersky.</a>, o
+                            Brasil é o país que mais recebe ataques via WhatsApp e o quarto, quando se trata de email.
+                            
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="/img/icons/icone-malware-1.png" alt="Icone de Malware">
+                        <h2>Malware</h2>
+                        <p>
+                            No vasto universo da cibersegurança, os malwares destacam-se como uma das <strong>ameaças mais
+                            persistentes e prejudiciais</strong>. Esses programas maliciosos, que incluem <strong>vírus</strong>,<strong>trojans</strong>,
+                            <strong>ransomware</strong> e muito mais,
+                            têm o potencial de comprometer a segurança de sistemas, redes e dados pessoais.
+                        
+                        
+                        </p>
+                    </div>
+                </div> 
+            </section>
+
+            <div class="border-1"></div>
+
+            <section id="protecao">
+
+                <div>
+                    <h2 class="titulo-2">Como se proteger</h2>
+
+                </div>
+                <div id="divide-protecao">
+                    <div id="text-protecao">
+                        <h2 class="protecao-text">Orientações gerais</h2>
+                        <p class="protecao-text" >
+                            Proteger-se contra golpes cibernéticos requer um conjunto de <strong>práticas sólidas</strong> e uma <strong>mentalidade vigilante</strong>. 
+                            Em primeiro lugar, é essencial cultivar
+                            a <strong>conscientização</strong>, compreendendo os tipos comuns de ameaças online,
+                            como <strong>engenharia social</strong>, <strong>phishing</strong> e <strong>malware</strong>.
+                            Além disso, pratique a <strong>navegação segura</strong>, evitando sites não confiáveis. <strong>Realize backups</strong> regulares de dados importantes para mitigar os impactos de possíveis ataques. 
+                            A <strong>educação contínua</strong>,
+                            <strong>capacita</strong> indivíduos e organizações a <strong>reconhecerem</strong> e se <strong>protegerem</strong> eficazmente contra ameaças cibernéticas
+                        </p>
+                    </div>
+                    
+                    <img src="/img/fig/Img-protecao-4.png" alt="Imagem-Como-se-proteger">
+                </div>
+
+            </section>
+            <div class="border-1"></div>
+            
+            <section id="o-que-fazer">
+                
+                <div id="o-que-fazer-text">
+
+                    <h2 id="tit">O que fazer?</h2>
+                    <p id="text-o-que-fazer">
+                        A comunidade Cilada está comprometida em promover uma <strong>experiência online segura</strong> para todos os seus membros. 
+                        Entendemos que os ataques cibernéticos são uma ameaça real e, por isso, 
+                        <strong>preparamos algumas dicas valiosas</strong> para ajudar você a lidar com situações adversas na internet.
+                    </p>
+
+                </div>
+
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide">
+                            <h2>Avaliação da Situação</h2>
+                            <p>
+                                Primeiro, avalie a extensão do possível dano. Identifique como 
+                                o ataque ocorreu e quais informações ou sistemas podem ter sido 
+                                comprometidos
+                            </p>
+                            <img src="/img/icons/icone-avaliacao.png" alt="icone-avaliacao">
+                        </div>
+                        <div class="swiper-slide bg-1">
+                            <h2>Isolamento</h2>
+                            <p>
+                                Para evitar uma maior propagação do ataque, desconecte 
+                                imediatamente o dispositivo afetado
+                                 da internet. Isso ajuda a prevenir danos adicionais.
+                            </p>
+                            <img src="/img/icons/icone-isolamento.png" alt="icone-avaliacao">
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Mudança de Credenciais</h2>
+                            <p>
+                                Altere imediatamente todas as senhas associadas às contas que 
+                                podem ter sido comprometidas. Considere 
+                                ativar a autenticação de dois fatores (2FA) sempre que possível.
+                            </p>
+                            <img src="/img/icons/icone-senha.png" alt="icone-avaliacao">
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Verificação de Antivírus</h2>
+                            <p>
+                                Execute uma verificação completa do sistema usando seu software antivírus para
+                                 identificar e remover qualquer malware presente
+                            </p>
+                            <img src="/img/icons/icone-antivirus.png" alt="icone-avaliacao">
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Backup e Restauração</h2>
+                            <p>
+                                Se possível, restaure o sistema para um ponto anterior seguro 
+                                usando backups confiáveis. 
+                                Isso ajuda a recuperar arquivos e configurações antes do ataque
+                            </p>
+                            <img src="/img/icons/icone-backup.png" alt="icone-avaliacao">
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Notificação de Autoridades</h2>
+                            <p>
+                                Se o ataque envolver atividades criminosas, considere relatar o 
+                                incidente às autoridades locais, 
+                                como a polícia ou órgãos especializados em crimes cibernéticos.
+                            </p>
+                            <img src="/img/icons/Icone-autoridade.png" alt="icone-avaliacao">
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Monitoramento Financeiro</h2>
+                            <p>
+                                Se houver risco de roubo de identidade ou informações 
+                                financeiras, monitore cuidadosamente suas contas 
+                                bancárias e de cartão de crédito para atividades suspeitas.
+                            </p>
+                            <img src="/img/icons/icone-financeiro.png" alt="icone-avaliacao">
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Educação e Prevenção</h2>
+                            <p>
+                                Aprenda com o incidente. Reforce as práticas de segurança digital 
+                                e eduque-se continuamente 
+                                para evitar futuras exposições a ameaças cibernéticas.
+                            </p>
+                            <img src="/img/icons/icone-educacao.png" alt="icone-avaliacao">
+                        </div>
+
+                      
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    
+                </div>
+            </section>
+
+
+            
+            <footer id="footer">
+                <a href="#quem-somos"><img src="/img/logos/Logo-Roxo-Branco.svg"></a>
+            </footer>
+            
+
+
+                        
+
+            <script>
+                const swiper = new Swiper('.swiper', {
+                    // Optional parameters
+                    direction: 'horizontal',
+                    loop: true,
+    
+                    // If we need pagination
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+    
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+    
+                    // And if we need scrollbar
+                    scrollbar: {
+                        el: '.swiper-scrollbar',
+                    },
+                });
+            </script>
+
+
+
+            
+        
+
+            
 
 
 
 
-    </main>
-</body>
+        </main>
+        
+    </body>
 </html>

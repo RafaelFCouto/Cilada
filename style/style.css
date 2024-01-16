@@ -2,6 +2,7 @@
     font-family: 'Maven Pro', sans-serif;
     margin: 0;
     padding: 0;
+    max-width: 1500px
   }
 
 
@@ -156,6 +157,14 @@ nav ul li {
     margin: 50px;
     color: white;
 }
+
+.titulo-2{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    color: #800080;
+}
+
 .card h2 {
     text-align: center;
     margin-bottom: 5px;
@@ -165,16 +174,137 @@ nav ul li {
 
 #principais-golpes a {
     text-decoration: none;
+    color: #f8e9e9;
+}
+
+/* PROTEÇÃO */
+
+#protecao{
+    height: 750px;
+}
+#text-protecao{
+
+    width: 500px;
+    margin: 100px;
+    margin-left: 200px;
+    
+
+}
+
+#text-protecao h2{
+
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 15px;
+    
+    
+}
+
+.protecao-text{
+
     color: #800080;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+
 }
 
 
 
 
 
+#protecao img{
+
+    
+    margin-right: 100px;
+}
+
+#divide-protecao{
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-protecao p::first-letter{
+    font-size: 150%;
+}
+
+
+/* o que fazer */
+
+#o-que-fazer{
+    height: 800px;
+    background-color: #800080;
+    
+}
+
+#o-que-fazer #tit{
+
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    margin-bottom: 50px;
+
+    
+}
 
 
 
+#o-que-fazer-text{
+    justify-items: center;
+ 
+    align-items: center;
+}
+
+#text-o-que-fazer{
+    margin-left: 450px;
+    width: 450px;
+    text-align: center;
+    color: white;
+}
+
+.swiper {
+    margin-top: 130px;
+    width: 500px;
+    height: 300px;
+    color: white;
+
+}
+
+.swiper-slide{
+    background-image: url(/img/bgs/bg-3.png);
+    text-align: center;
+    padding-top: 35px;
+} 
+
+.swiper-slide h2{
+    margin-bottom: 15px;
+
+}
+
+.swiper-slide p
+{
+
+    padding: 0 50px;
+    
+
+}
+.swiper-slide img{
+    height: 40%;
+}
+
+#footer{
+
+    background-color: white;
+    height: 50px;
+    text-align: center;
+
+}
+
+#footer img{
+    height: 100%;
+}
 
 
 
